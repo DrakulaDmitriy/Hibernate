@@ -42,7 +42,6 @@ public class Util {
                 configuration.setProperty(AvailableSettings.SHOW_SQL, "true");
                 configuration.setProperty(AvailableSettings.DIALECT, DIALECT);
                 configuration.setProperty(AvailableSettings.HBM2DDL_AUTO, "update");
-                configuration.setProperty(AvailableSettings.CURRENT_SESSION_CONTEXT_CLASS, "thread");
 
                 configuration.addAnnotatedClass(User.class);
 
